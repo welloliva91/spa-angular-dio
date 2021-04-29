@@ -1,27 +1,38 @@
-# SpaAngularDio
+# Desafio SPA Angular DIO
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+Projeto realizado para o desafio do curso de Desenvolvendo SPA com Angular do bootcamp Avanade Angular Developer da Digital Innovation One em parceria com a Avanade. 
 
-## Development server
+Esse projeto foi criado utilizando o [Angular CLI](https://github.com/angular/angular-cli) versão 11.2.6. e Angular Material
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Rodando o código:
 
-## Code scaffolding
+Para rodar o código digite `ng serve` no prompt de comando. 
+Visualize navegando para `http://localhost:4200/`. 
+A app vai atualizar automaticamente se você mudar o código fonte.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Objetivo do Desafio:
 
-## Running unit tests
+- Criar uma aplicação Angular.
+- Criar dentro da app no mínimo 3 componentes.
+- Escolher no mínio 4 componentes do Angular Material.
+- Fazer interação em uma das páginas utilizando Property Biding e/ou Interpolation.
+- Criar uma explicação do que foi feito upando-a no Github.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Componentes utilizados:
 
-## Further help
+- MatCardModule: usado para criar os cards com as informações dos serviços do site.
+- MatButtonModule: para criar os botões utilizados nos cards.
+- MatFormFieldModule: usado para criar um dos inputs do form de contato.
+- MatSelectModule: seletor de opções do form de contato.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Resumo:
+
+Criei uma aplicação básica para que possa ser utilizada no futuro como base para outros projetos, nessa app o objetivo foi simular (de forma simples) um site de um aplicativo ou produto, informando suas qualidades como Multiplataforma, Performance, Produtividade e Funcionalidades, foi criado as páginas Início, Sobre e Contato utilizando HTML, CSS, Bootstrap e Angular Material.
+
+Estarei estudando e reformulando alguns pontos e pedaços do código para que fique mais bonito e com boas práticas.
